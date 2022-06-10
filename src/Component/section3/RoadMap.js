@@ -3,6 +3,9 @@ import './roadmap.css'
 export const RoadMap = () => {
     return (
         <div className='RoadmapContainer'>
+            <div className='RoadMapHeader'>
+                <h1>Roadmap</h1>
+            </div>
             <div className='roadmap_items'>
                 <div className='icon_div'>
                     <div className='icon_div_div'>
@@ -38,7 +41,7 @@ export const RoadMap = () => {
 
                     <h1> Metaverse Stores</h1>
 
-                    <p> Build our stores in the metaverse. <br/>
+                    <p> Build our stores in the metaverse. <br />
                         Decentraland and SandBox.</p>
 
                 </div>

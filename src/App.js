@@ -21,6 +21,9 @@ function App() {
         {/* <RoadMap/> */}
         <RoadMapImages />
       </div>
+      <div className='section2'>
+        {/* <RoadMap /> */}
+      </div>
       {/* <Navbar />
       <div className='section1'>
         <div className='NFTBrand1'>

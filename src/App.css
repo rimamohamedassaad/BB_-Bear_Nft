@@ -82,7 +82,12 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 150%; */
-
+.section2{
+  position: relative;
+  top:80px;
+  width:100%;
+  background: linear-gradient(90deg, #111111 0%, #16122E 100%);
+}
 @media (max-width: 1024px) {
   .section1Container {
     /* width: 100%; */
