@@ -1,0 +1,96 @@
+.section {
+  /* background-color: black; */
+  width: 100%;
+  /* height: 500px; */
+  padding: 0;
+  margin: auto;
+  margin-top: -30px;
+}
+@keyframes glide {
+  from {
+    top: 75%;
+    left: 20%;
+  }
+
+  to {
+    top: 73%;
+    left: 20%;
+  }
+}
+@keyframes glide2 {
+  from {
+    top: 43%;
+    left: 20%;
+  }
+
+  to {
+    top: 41%;
+    left: 20%;
+  }
+}
+@keyframes glide3 {
+  from {
+    top: 54%;
+    right: 5%;
+  }
+
+  to {
+    top: 52%;
+    right: 5%;
+  }
+}
+
+.imagesWrapper1 {
+  position: relative;
+}
+.backgroudImg1 {
+  width: 100%;
+  max-width: 100%;
+}
+.bear1 {
+  position: absolute;
+  width: 40%;
+  top: 14%;
+  left: 40%;
+}
+.earth1 {
+  position: absolute;
+  width: 35%;
+  top: 70%;
+  left: 43%;
+}
+.rock11 {
+  position: absolute;
+  top: 74%;
+  left: 20%;
+  width: 10%;
+  animation: glide 2s ease-in-out alternate infinite;
+}
+.rock21 {
+  position: absolute;
+  top: 42%;
+  left: 20%;
+  width: 8%;
+  animation: glide2 2s ease-in-out alternate infinite;
+}
+.rock31 {
+  position: absolute;
+  top: 53%;
+  right: 5%;
+  width: 8%;
+  animation: glide3 2s ease-in-out alternate infinite;
+}
+@media (max-width:1024){
+  .imagesWrapper1{
+    margin-top: 20%;
+  }
+  .show{
+    display: none !important;
+  }
+  .hide{
+    display:block  !important;
+  }
+}
+@media (min-width:1024){
+
+}

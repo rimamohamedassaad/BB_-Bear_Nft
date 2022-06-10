@@ -1,0 +1,28 @@
+.BBtextContainer {
+  max-width: 100%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100px;
+  color: linear-gradient(89.74deg, #fff 0.4%, #fff 17.36%), #ffffff;
+  /* background: linear-gradient(90deg, #111111 0%, #16122e 100%); */
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; */
+  /* position: absolute;
+  top:20px */
+  padding: 0;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+  .BBtextContainer {
+    max-width: 100%;
+    width: 100%;
+  }
+  .titleContainer {
+    width: 90%;
+    margin: auto;
+    font-size: 150%;
+  }
+}

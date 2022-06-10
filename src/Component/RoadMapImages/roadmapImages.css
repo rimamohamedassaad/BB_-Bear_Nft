@@ -1,0 +1,23 @@
+.rectangle {
+  width: 123px;
+  height: 120px;
+  background: #9e4ce3;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  padding: auto;
+}
+.atom {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 38px;
+  left: 35px;
+}
+.atome{
+  width: 60px;
+  height: 56px;
+  position: absolute;
+  top: 35px;
+  left: 33px;
+}

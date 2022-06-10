@@ -1,0 +1,38 @@
+/* .firstSectionContainer{
+  position: relative;
+} */
+.testContainer {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  height: 40%;
+  background: linear-gradient(90deg, #111111 0%, #16122e 100%);
+}
+.testWrapper {
+  max-width: 60%;
+}
+.bbText {
+  max-width: 100%;
+  position: absolute;
+  top: 80px;
+  left: 8%;
+}
+@media (max-width: 1024px) {
+  .bbText {
+    /* position: absolute; */
+    /* top: 10px; */
+    /* height: 30%; */
+    position: static;
+  }
+  .testWrapper {
+    width: 100%;
+    max-width: 100%;
+    position: static;
+  }
+  .testContainer {
+    display: block;
+    position: relative;
+    height: 40%;
+    background: linear-gradient(90deg, #111111 0%, #16122e 100%);
+  }
+}

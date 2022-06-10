@@ -1,0 +1,68 @@
+.RoadmapContainer {
+  position: relative;
+  padding: 10px;
+  padding-bottom: 80px;
+  /* max-width: 100%; */
+  margin: auto;
+  top: 10px;
+  /* background-color: white; */
+  margin-bottom: 20px;
+}
+.roadmap_items:not(:last-child):after {
+  content: "";
+  background: black;
+  position: absolute;
+  /* bottom: 2px; */
+  left: 54px;
+  height: 102px;
+  width: 1px;
+  top: 122px;
+}
+
+.roadmap_item h1 {
+  margin-bottom: 15px;
+}
+.roadmap_items {
+  position: relative;
+  margin-top: -10px;
+}
+.icon_div {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  /* box-shadow: 0 0 0 5px #f2f3f7; */
+  border: 2px dashed black;
+  /* line-height: 40px; */
+  position: relative;
+  top: 83px;
+  left: 38px;
+}
+.icon_div_div {
+  background: #98c1e2;
+  /* margin: 10px; */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  margin: auto;
+}
+
+.blue_icon {
+  background: #98c1e2;
+}
+.red_icon {
+  background-color: rgb(233, 83, 113);
+}
+.white_icon {
+  background-color: white;
+}
+.roadmap_item {
+  position: relative;
+  padding: 1.5em;
+  margin-left: 70px;
+  width: 75%;
+}
