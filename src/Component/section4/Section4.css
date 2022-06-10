@@ -1,0 +1,62 @@
+.Section4Container {
+  background-color: #000000;
+  width: 100%;
+  max-width: 100%;
+  color: #fff;
+}
+.section4Header {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.section4Header h1 {
+  font-size: 350%;
+}
+
+.logoImg {
+  width: 260px;
+  height: 200px;
+}
+.section4Text {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* gap: 130px; */
+}
+.section4TextImg {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 130px;
+  width: 35%;
+  margin-bottom: 100px;
+}
+.section4TextP {
+  width: 40%;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  font-size: 160%;
+}
+@media (max-width: 764px) {
+  .section4Text {
+    display: block;
+  }
+  .section4TextP {
+    width: 80%;
+    margin-right: 0;
+    margin: auto;
+    padding-bottom: 50px;
+  }
+  .section4TextImg {
+    width: 100%;
+    margin-right: 0;
+    display: block;
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .section4Header {
+    padding-bottom: 10px;
+    padding-top: 40px;
+  }
+}

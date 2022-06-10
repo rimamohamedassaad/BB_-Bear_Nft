@@ -1,0 +1,27 @@
+.mint1 {
+  position: relative;
+  margin-top: 50px;
+}
+.backbear {
+  border: solid 5px #d796f8;
+  border-radius: 35px;
+}
+.bear1 {
+  position: absolute;
+  width: 251.59px;
+  height: 317.25px;
+  left: 0px;
+  top: -164px;
+}
+@media (max-width: 700px) {
+  .bear1 {
+    width: 185.59px;
+    height: 233.25px;
+    top: -108px;
+    left: 15px
+  }
+  .backbear{
+      width:200px;
+      height: 250px;
+  }
+}

@@ -12,6 +12,9 @@ import { TestContainer } from './Component/test/TestContainer/TestContainer';
 import { BBtext } from './Component/BBtext/BBtext';
 import { RoadMap } from './Component/section3/RoadMap';
 import { RoadMapImages } from './Component/RoadMapImages/RoadMapImages';
+import { Section4 } from './Component/section4/Section4';
+import { Footer } from './Component/footer/Footer';
+import { Mint } from './Component/Section2.js/Mint';
 function App() {
   return (
     <div className="App">
@@ -19,7 +22,10 @@ function App() {
       <div className='section1'>
         {/* <TestContainer /> */}
         {/* <RoadMap/> */}
-        <RoadMapImages />
+        {/* <RoadMapImages /> */}
+        {/* <Section4/> */}
+       {/* <Footer/> */}
+       <Mint/>
       </div>
       <div className='section2'>
         {/* <RoadMap /> */}
