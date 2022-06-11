@@ -15,33 +15,28 @@ import { RoadMapImages } from './Component/RoadMapImages/RoadMapImages';
 import { Section4 } from './Component/section4/Section4';
 import { Footer } from './Component/footer/Footer';
 import { Mint } from './Component/Section2.js/Mint';
+import { MintTest } from './Component/Section2.js/MintTest';
 function App() {
   return (
     <div className="App">
       <Navbar />
       <div className='section1'>
-        {/* <TestContainer /> */}
-        {/* <RoadMap/> */}
-        {/* <RoadMapImages /> */}
-        {/* <Section4/> */}
-       {/* <Footer/> */}
-       <Mint/>
+        <TestContainer />
       </div>
-      <div className='section2'>
-        {/* <RoadMap /> */}
+
+      <div className='section22'>
+        <h1>
+          mint your Bear
+        </h1>
+        <Mint />
+        <div className='MintBtnSection'>
+          <button className='exploreBtn'>Mint</button>
+          <p>Hundred of unique and rare BB Bear are waiting for you !</p>
+        </div>
       </div>
-      {/* <Navbar />
-      <div className='section1'>
-        <div className='NFTBrand1'>
-          <div className='section1Container'><p ><span className='brandIcon'>BB BEAR </span> <span className='brandIconP'>COLLECTION</span></p>
-          </div>
-          <div className='textBrand'>
-            BB BEAR is a collection of NFTs created by a group of imaginative designers, bringing a unique 110 initial NFT collection. Our HODLERS will have the opportunity to monetize their NFT and generate income through our partnerships.          </div>
-        </div>
-        <div className='ImgContainer'>
-          <Test />
-        </div>
-      </div> */}
+      <RoadMapImages />
+      <Section4 />
+      <Footer />
     </div>
   );
 }

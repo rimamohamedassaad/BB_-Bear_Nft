@@ -53,12 +53,12 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 150%;
+  font-size: 180%;
   color: #fff;
   line-height: 45px;
   /* margin-left: 50px; */
   max-width: 45%;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .NFTBrand1 {
@@ -67,12 +67,12 @@
   left: 90px;
   top: 110px;
 }
-/* .exploreBtn {
+.exploreBtn {
   color: #fff;
   background-color: #9743e0;
   width: 221px;
   /* height: 65px; */
-/* padding-top: 7px;
+  padding-top: 7px;
   padding-bottom: 7px;
   left: 203px;
   border-radius: 10px;
@@ -81,12 +81,32 @@
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 150%; */
-.section2{
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+.MintBtnSection {
+  text-align: center;
+  margin-top: -110px;
+ 
+}
+.section2 {
   position: relative;
-  top:80px;
-  width:100%;
-  background: linear-gradient(90deg, #111111 0%, #16122E 100%);
+  top: 80px;
+  width: 100%;
+  background: linear-gradient(90deg, #111111 0%, #16122e 100%);
+}
+.section22 {
+  background-color: black;
+  /* top: 80px; */
+  color: #fff;
+  font-size: 200%;
+  padding-top: 155px;
+  margin-top: 0;
+  padding-bottom: 95px;
+}
+.section22 h1 {
+  text-align: center;
+  margin-top: 10px;
 }
 @media (max-width: 1024px) {
   .section1Container {
@@ -109,11 +129,22 @@
     margin: auto;
     /* margin-left: 0;
     margin-right: 0; */
-    font-size: 150%;
-    line-height: 40px;
+    font-size: 130%;
+    line-height: 32px;
   }
   .brandIcon,
   .brandIconP {
     font-size: 100%;
+  }
+  .section22 {
+    font-size: 100%;
+  }
+}
+@media (max-width:1250px){
+  .textBrand{
+    font-size: 140%;
+    color: #fff;
+    line-height: 33px;
+    margin-top: 20px;
   }
 }

@@ -15,9 +15,9 @@ export const Test = () => {
                 <img src={backgroudImg1} alt='background' className='backgroudImg1' />
                 <img src={bear} alt='bear' className='bear1' />
                 <img src={earth} alt='bear' className='earth1' />
-                {/* <img src={rock1} alt='rock1' className='rock11' />
+                <img src={rock1} alt='rock1' className='rock11' />
                 <img src={rock1} alt='rock2' className='rock21' />
-                <img src={rock2} alt='rock3' className='rock31' /> */}
+                <img src={rock2} alt='rock3' className='rock31' />
             </div>
         </div>
     )

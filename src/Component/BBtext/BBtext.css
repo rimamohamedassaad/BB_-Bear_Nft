@@ -13,12 +13,17 @@
   top:20px */
   padding: 0;
   margin-bottom: 0;
+  margin-left: 30px;
 }
-
+.titleContainer {
+margin-top: 20px;
+}
 @media (max-width: 1024px) {
   .BBtextContainer {
     max-width: 100%;
     width: 100%;
+    margin-left: 0;
+
   }
   .titleContainer {
     width: 90%;

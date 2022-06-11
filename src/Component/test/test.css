@@ -9,23 +9,23 @@
 @keyframes glide {
   from {
     top: 75%;
-    left: 20%;
+    left: 26%;
   }
 
   to {
     top: 73%;
-    left: 20%;
+    left: 26%;
   }
 }
 @keyframes glide2 {
   from {
     top: 43%;
-    left: 20%;
+    left: 26%;
   }
 
   to {
     top: 41%;
-    left: 20%;
+    left: 26%;
   }
 }
 @keyframes glide3 {
@@ -39,7 +39,10 @@
     right: 5%;
   }
 }
-
+.container{
+  max-width: 100%;
+  overflow: hidden;
+}
 .imagesWrapper1 {
   position: relative;
 }

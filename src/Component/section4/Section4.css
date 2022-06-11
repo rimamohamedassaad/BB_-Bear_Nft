@@ -14,8 +14,12 @@
 }
 
 .logoImg {
-  width: 260px;
-  height: 200px;
+  width: 225px;
+  height: 190px;
+}
+.logoImg:hover {
+  width: 250px;
+  height: 190px;
 }
 .section4Text {
   display: flex;
@@ -46,7 +50,15 @@
     margin: auto;
     padding-bottom: 50px;
   }
-  .section4TextImg {
+  .section4TextImg img{
+    width: 142px;
+    height: 126px
+  }
+  .section4TextImg img:hover{
+    width: 150px;
+    height: 126px
+  }
+  .section4TextImg  {
     width: 100%;
     margin-right: 0;
     display: block;
@@ -58,5 +70,8 @@
   .section4Header {
     padding-bottom: 10px;
     padding-top: 40px;
+  }
+  .section4Header h1{
+    font-size: 300%;
   }
 }
