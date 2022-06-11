@@ -86,7 +86,7 @@
 }
 .MintBtnSection {
   text-align: center;
-  margin-top: -110px;
+  margin-top: -10%;
  
 }
 .section2 {
@@ -146,5 +146,12 @@
     color: #fff;
     line-height: 33px;
     margin-top: 20px;
+  }
+}
+@media (max-width:700px){
+ .section22 h1{
+  margin-bottom: -60px}
+  .MintBtnSection {
+    margin-top: -50px;
   }
 }

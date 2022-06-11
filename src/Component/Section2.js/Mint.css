@@ -6,6 +6,14 @@
     transform: rotate(198deg);
   }
 }
+@keyframes scrollText {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-200%);
+  }
+}
 .MintContainer {
   display: flex;
   max-width: 80%;
@@ -42,11 +50,11 @@
 }
 .linearback {
   max-width: 200%;
-  width: 200%;
+ width: 200%;
   transform: rotate(20deg);
   position: relative;
-  left: -120px;
-  top: -50px;
+  left: -50%;
+  top: -20%;
   animation: rotation 20s;
   animation-iteration-count: infinite;
 }
@@ -62,6 +70,24 @@
     height: 250px;
   }
   .mint1 {
-    display: none;
+    width: 100%;
+    position: relative;
+  }
+  .MintContainer {
+    width: 100%;
+    animation: scrollText 10s infinite linear;
+    height: 500px;
+    gap: 300px;
+  }
+  .bear1Mint {
+    width: 185.59px;
+    height: 233.25px;
+    top: -26px;
+    left: 64px;
+  }
+  .linearback{
+    /* width: -2px; */
+    left: 0%;
+    top: -110%;
   }
 }
