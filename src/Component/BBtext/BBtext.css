@@ -47,4 +47,14 @@ margin-top: 20px;
     margin: auto;
     font-size: 150%;
   }
+  .exploreBtnDiv{
+    width: 90%;
+    margin: auto;
+    /* width:180px; */
+    text-align: left;
+  }
+  .exploreBtn{
+        width:130px;
+        font-size: 18px;
+  }
 }

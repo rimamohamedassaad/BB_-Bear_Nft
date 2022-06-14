@@ -8,7 +8,7 @@ export const BBtext = () => {
       <div className='textBrand'>
         <p> BB BEAR is a collection of NFTs created by a group of imaginative designers, bringing a unique 110 initial NFT collection. Our HODLERS will have the opportunity to monetize their NFT and generate income through our partnerships.  </p>
       </div>
-      <div><button className='exploreBtn'>Explore</button></div>
+      <div className='exploreBtnDiv'><button className='exploreBtn'>Explore</button></div>
     </div>
   )
 }
