@@ -1,18 +1,27 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   /* overflow: hidden; */
-}
+  font-family: 'Poppins';
+font-weight: 400px;}
 .body {
   position: relative;
+  /* text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision;
+  font-smooth: always;
+
+  font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased; */
 }
 .section1 {
   /* padding-top: 50px; */
   position: relative;
   /* height: 780px; */
-  top: 80px;
-  width: 100%;
+  top: 93px;
+ max-width:  100%;
   /* background: linear-gradient(90deg, #111111 0%, #16122e 100%); */
   /* display: flex; */
 }
@@ -26,9 +35,9 @@
 .brandIcon {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 600;
+  /* font-weight: 600; */
   line-height: 100px;
-  background: linear-gradient(89.74deg, #fa00ff 0.4%, #6d8fee 17.36%), #ffffff;
+  background: linear-gradient(89.74deg, #fa00ff 14.4%, #6d8fee 40.36%), #ffffff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -53,15 +62,20 @@
 .textBrand {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 400;
-  font-size: 180%;
-  color: #fff;
+  font-weight: 300;
+    font-size: 30px;
+  /* color: #fff; */
   line-height: 45px;
   /* margin-left: 50px; */
   max-width: 45%;
   margin-top: 50px;
+  color: #CFCFCF;
+  line-height: 45px;
 }
 
+/* .textBrand p{
+  transform: scale(1.1, 1.1);
+} */
 .NFTBrand1 {
   /* width: 50%; */
   position: absolute;
@@ -140,3 +154,8 @@
     margin-top: -50px;
   }
 }
+/* @media (min-width:1233px){
+  .brandIcon , .brandIconP{
+    font-size: 550%;
+  }
+} */

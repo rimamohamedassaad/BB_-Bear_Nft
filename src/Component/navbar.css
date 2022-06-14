@@ -3,74 +3,120 @@
   justify-content: space-around;
   position: absolute;
   width: 100%;
-  height: 80px;
+  /* height: 80px; */
   left: 0px;
   top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background: #000000;
   border-bottom: 2px white solid;
   align-items: center;
   align-content: center;
+  /* max-width: 100%; */
 }
-.navbar div a {
+.socialMediaContent a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 85px;
+  height: 30px;
+  font-style: normal;
+}
+.navbar .linkContent a{
   color: #fff;
   text-decoration: none;
   margin-left: 12px;
   margin-right: 12px;
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  width: 85px;
+  height: 30px;
+  font-style: normal;
 }
-.linkContent{
-    margin-left: 20px;
+.linkContent {
+  margin-left: 20px;
 }
 .socialMedia {
-    position: relative;
-  }
+  position: relative;
+}
 .socialMedia:first-child {
-    padding-left: 10px;
+  padding-left: 26px;
 }
-.socialMedia:last-child{
-    padding-right: 10px;
+.socialMedia img {
+  width: 20px;
+  height: 20px;
+ 
 }
+.socialMedia:last-child {
+  padding-right: 26px;
+}
+
 .socialMedia:first-child::after {
-    content:""; 
-    background: white; 
-    position: absolute; 
-    bottom: 0; 
-    left: 0; 
-    height: 30px; 
-    width: 1px;
+  content: "";
+  background: #606060;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 40px;
+  width: 1px;
+  border-radius: 1px;
 }
-.socialMedia:last-child::after{
-    content:""; 
-    background: white; 
-    position: absolute; 
-    bottom: 0; 
-    right: 0; 
-    height: 30px; 
-    width: 1px;
+.socialMedia a{
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.socialMedia:last-child::after {
+  content: "";
+  background: #606060;
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  height: 40px;
+  width: 1px;
+  border-radius: 1px;
 }
 .connect {
-  width: 170px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  width: 173px;
+  height: 48px;
+  /* padding-bottom: 10px; */
   text-align: center;
   background-color: #fff;
   border-radius: 24px;
-  font-weight: 600;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
   font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #000000;
   margin-left: 20px;
 }
-.connect:hover{
-    background-color:#9C49E2    ;
-    color:#fff;
+.connect:hover {
+  background-color: #9c49e2;
+  color: #fff;
 }
-.navbarContent{
-    display: flex;
-    align-items: center;
-    align-content: center;
+.navbarContent {
+  display: flex;
+  align-items: center;
+  align-content: center;
 }
-@media (max-width:1024px){
-    .linkContent{
-        display: none;
-    }
+@media (max-width: 1024px) {
+  .linkContent , .socialMediaContent{
+    display: none;
+  }
+}
+@media (min-width: 1276px) {
+  /* .navbar div a{
+font-size: 26px;
+  } */
+
+  /* .logo {
+    width: 100px;
+    height: 75px;
+  } */
 }
