@@ -7,7 +7,12 @@
   justify-content: flex-end;
   height: 40%;
   background: linear-gradient(90deg, #111111 0%, #16122e 100%);
+  top: 0;
+  /* z-index: -9; */
+  /* overflow: hidden; */
+  max-width: 100%;
 }
+
 .testWrapper {
   max-width: 60%;
 }

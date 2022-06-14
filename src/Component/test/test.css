@@ -14,7 +14,7 @@
 
   to {
     top: 73%;
-    left: 26%;
+    left: 24%;
   }
 }
 @keyframes glide2 {
@@ -25,18 +25,18 @@
 
   to {
     top: 41%;
-    left: 26%;
+    left: 24%;
   }
 }
 @keyframes glide3 {
   from {
-    top: 54%;
-    right: 5%;
+    top: 52%;
+    right: 15%;
   }
 
   to {
-    top: 52%;
-    right: 5%;
+    top: 50%;
+    right: 13%;
   }
 }
 .container{

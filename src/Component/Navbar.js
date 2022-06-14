@@ -13,9 +13,11 @@ export const Navbar = () => {
                     <img src={logo} alt='logo' />
                 </div>
                 <div className='linkContent'>
-                    <a href="mint" >mint</a>
+
+                <a href="mint" >Home</a>
+                    <a href="mint" >Mint</a>
                     <a href="mint" >Roadmap</a>
-                    <a href="mint" >partner</a>
+                    <a href="mint" >Contact us</a>
                 </div>
                 </div>
                 <div  className='navbarContent'>
