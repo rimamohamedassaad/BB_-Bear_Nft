@@ -74,6 +74,7 @@
 @media (max-width: 1024px) {
   .titleContainer {
     margin-top: 20px;
+    margin-left: 10px;
   }
   .textBrand {
     font-size: 20px;
@@ -88,25 +89,21 @@
 }
 @media (max-width: 664px) {
   .BBtextContainer {
-    max-width: 100%;
-    width: 100%;
-    margin-left: 0;
-  }
-  .titleContainer {
+    max-width: 85%;
     width: 85%;
+    margin-left: 0;
     margin: auto;
-    /* font-size: 150%; */
   }
   .textBrand {
-    width: 85%;
-    max-width: 85%;
-    margin: auto;
+    width: 100%;
+    max-width: 100%;
   }
   .textBrand p {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #cfcfcf;
+    margin-bottom: -30px;
   }
   .exploreBtnDiv {
     width: 90%;

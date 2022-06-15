@@ -39,7 +39,7 @@
     right: 13%;
   }
 }
-.container{
+.container {
   max-width: 100%;
   overflow: hidden;
 }
@@ -48,7 +48,7 @@
 }
 .backgroudImg1 {
   width: 100%;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 .bear1 {
   position: absolute;
@@ -83,17 +83,44 @@
   width: 8%;
   animation: glide3 2s ease-in-out alternate infinite;
 }
-@media (max-width:1024){
-  .imagesWrapper1{
-    /* margin-top: 20%; */
-  }
-  .show{
-    display: none !important;
-  }
-  .hide{
-    display:block  !important;
-  }
+.ejbari {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
 }
-@media (min-width:1024){
-
+.backlinear1 {
+  transform: rotate(20deg);
+  position: absolute;
+  top: 4%;
+  animation: rotation 20s;
+  animation-iteration-count: infinite;
+}
+@media (max-width: 664px) {
+  .backgroudImg1 {
+    width: 140%;
+    left: -25%;
+    position: relative;
+  }
+  .backlinear1 {
+    transform: rotate(20deg);
+    position: absolute;
+    top: 0;
+    animation: rotation 20s;
+    animation-iteration-count: infinite;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .bear1 {
+    position: absolute;
+    width: 52%;
+    top: 14%;
+    left: 27%;
+  }
+  .earth1{
+    position: absolute;
+    width: 43%;
+    top: 65%;
+    left: 32%;
+  }
 }

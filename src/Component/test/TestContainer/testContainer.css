@@ -9,7 +9,6 @@
   background: linear-gradient(90deg, #111111 0%, #16122e 100%);
   top: 0;
   /* z-index: -9; */
-  /* overflow: hidden; */
   max-width: 100%;
 }
 
@@ -22,13 +21,12 @@
   /* top: 50px; */
   left: 12%;
 }
-@media (max-width:1024px){
+@media (max-width: 1024px) {
   .bbText {
-left: 0;
+    left: 0;
 
-top:0
+    top: 0;
   }
-   
 }
 @media (max-width: 664px) {
   .bbText {
@@ -43,14 +41,15 @@ top:0
     position: static;
   }
   .testContainer {
+    /* flex-direction: column; */
     display: block;
     position: relative;
     height: 40%;
-    background: linear-gradient(90deg, #111111 0%, #16122e 100%);
+    /* background: linear-gradient(90deg, #111111 0%, #16122e 100%); */
   }
 }
-@media (min-width:1600px){
-  .bbText{
-    top:80px;
+@media (min-width: 1600px) {
+  .bbText {
+    top: 80px;
   }
 }

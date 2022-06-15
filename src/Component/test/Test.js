@@ -13,9 +13,12 @@ export const Test = () => {
     return (
         <div className='section'>
             <div className='imagesWrapper1'>
-                {/* <img src={backlinear1} alt='background' className='backlinear1' /> */}
+                <div className='ejbari'>
+                    <img src={backlinear1} alt='background' className='backlinear1' />
+                    <img src={backgroudImg} alt='background' className='backgroudImg1' />
+                </div>
                 {/* <img src={backlinear1} alt='background' className='backlinear11' /> */}
-                <img src={backgroudImg} alt='background' className='backgroudImg1' />
+
                 <img src={bear} alt='bear' className='bear1' />
                 <img src={earth} alt='bear' className='earth1' />
                 <img src={rock1} alt='rock1' className='rock11' />
