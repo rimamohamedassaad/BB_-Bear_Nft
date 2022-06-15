@@ -7,6 +7,7 @@ export const RoadMap = () => {
             <div className=''>
                 <p className='roadmapH1'>Roadmap</p>
             </div>
+            <div className='roadmap_items_container'>
             <div className='roadmap_items'>
                 <div className='icon_div'>
                     <div className='icon_div_div'>
@@ -46,6 +47,7 @@ export const RoadMap = () => {
                         Decentraland and SandBox.</p>
 
                 </div>
+            </div>
             </div>
         </div>
     )

@@ -112,13 +112,16 @@
   }
 }
 @media (min-width: 1610px) {
-  .RoadmapContainer {
-    margin-left: 10%;
+  .roadmap_items_container{
+    margin-left: 12%;
   }
 }
 @media (max-width: 1024px) {
   .RoadmapContainer {
     margin-left: 15px;
+  }
+  .roadmap_items{
+    margin-left: 10%;
   }
 }
 @media (max-width: 664px) {
@@ -149,6 +152,9 @@
   }
   .roadmap_items:not(:last-child):after {
     height: 73px;
+  }
+  .roadmap_items{
+    margin-left: 0;
   }
 }
 @media (max-width:1201px){

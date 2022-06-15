@@ -19,10 +19,10 @@ function App() {
       <div className='section22'>
         {/* <div style={{ textAlign: 'center' }}> <img src={arrow} alt='arrow' /></div> */}
         <Mint />
-        {/* <div className='MintBtnSection'>
+        <div className='MintBtnSection'>
           <button className='exploreBtn'>Mint</button>
           <p>Hundred of unique and rare BB Bear are waiting for you !</p>
-        </div> */}
+        </div>
       </div>
       <RoadMapImages />
       <Section4 />

@@ -36,6 +36,14 @@
 .MintBtnSection {
   text-align: center;
   margin-top: -10%;
+  color: #b8b8b8;
+}
+.MintBtnSection p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
 }
 .section2 {
   position: relative;
@@ -107,6 +115,10 @@
   }
   .MintBtnSection {
     margin-top: -50px;
+  }
+  .MintBtnSection p{
+    font-size: 16px;
+    padding: 10px;
   }
 }
 /* @media (min-width:1233px){

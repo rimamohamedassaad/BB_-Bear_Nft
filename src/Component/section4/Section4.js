@@ -6,9 +6,7 @@ export const Section4 = () => {
     return (
         <div className='Section4Container'>
             <div className='section4Header'>
-                <h1>
-                    Partnership
-                </h1>
+            <p className='roadmapH1'>Partnership</p>
             </div>
             <div className='section4Text'>
                 <div className='section4TextImg'>

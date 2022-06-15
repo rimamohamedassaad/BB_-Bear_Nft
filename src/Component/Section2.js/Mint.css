@@ -14,25 +14,26 @@
     transform: translateX(-200%);
   }
 }
+.container h1{
+  
+}
 .MintContainer {
-  DISPLAY: FLEX;
+  position: relative;
+  display: flex;
   max-width: 80%;
   width: 80%;
   margin: auto;
   text-align: center;
 }
-.MintContainer {
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
-  scrollbar-width: none; /* Firefox */
-}
-.MintContainer::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
-}
 .mint1 {
   position: relative;
   margin-top: 100px;
+  height: 700px;
   width: 33.33%;
+  display: flex;
+  justify-content: center;
 }
+
 .backbear {
   border: solid 5px #d796f8;
   border-radius: 35px;
@@ -119,48 +120,32 @@
   height: 333.86px;
   left: 0px;
   top: -170.83px;
-  
 }
 .linearback {
-  max-width: 200%;
-  width: 200%;
   transform: rotate(20deg);
-  position: relative;
-  left: -50%;
+  position: absolute;
   top: -20%;
   animation: rotation 20s;
   animation-iteration-count: infinite;
 }
 @media (max-width: 700px) {
-  .bear1Mint {
-    width: 185.59px;
-    height: 233.25px;
-    top: -108px;
-    left: 15px;
-  }
-  .backbear {
-    width: 200px;
-    height: 250px;
-  }
   .mint1 {
     width: 100%;
     position: relative;
   }
   .MintContainer {
     width: 100%;
-    animation: scrollText 10s infinite linear;
     height: 500px;
     gap: 300px;
   }
-  .bear1Mint {
-    width: 185.59px;
-    height: 233.25px;
-    top: -26px;
-    left: 64px;
+}
+@media (min-width: 1024px) {
+  .sliderContainer {
+    display: none;
   }
-  .linearback {
-    /* width: -2px; */
-    left: 0%;
-    top: -110%;
+}
+@media (max-width: 1024px) {
+  .MintContainer {
+    display: none;
   }
 }

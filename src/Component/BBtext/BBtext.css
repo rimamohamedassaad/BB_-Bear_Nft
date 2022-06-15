@@ -58,7 +58,7 @@
   color: #fff;
   background-color: #9743e0;
   width: 221px;
-  /* height: 65px; */
+  height: 60px;
   padding-top: 7px;
   padding-bottom: 7px;
   left: 203px;
@@ -75,8 +75,8 @@
   .titleContainer {
     margin-top: 20px;
   }
-  .textBrand{
-    font-size:20px;
+  .textBrand {
+    font-size: 20px;
     margin-left: 10px;
   }
   .textBrand p {
