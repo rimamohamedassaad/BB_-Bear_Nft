@@ -15,7 +15,7 @@
   }
 }
 .MintContainer {
-  display: flex;
+  DISPLAY: FLEX;
   max-width: 80%;
   width: 80%;
   margin: auto;
@@ -36,21 +36,94 @@
 .backbear {
   border: solid 5px #d796f8;
   border-radius: 35px;
-  width: 65%;
+  width: 261.29px;
   position: absolute;
   top: 14%;
   left: 15%;
+  height: 319.48px;
+  background-color: #000000;
+}
+.backbear1 {
+  background: linear-gradient(90deg, #d796f8 0%, #9743e0 100%);
+  border-radius: 23.7534px 23.7534px 0px 0px;
+  width: 212.59px;
+  height: 138.96px;
+  position: absolute;
+  left: 8.74%;
+  right: 9.69%;
+  top: 6.26%;
+  bottom: 50.23%;
+}
+.rectangle2 {
+  position: absolute;
+  left: 9.09%;
+  right: 53.64%;
+  top: 54.65%;
+  bottom: 37.17%;
+  background: linear-gradient(
+    90deg,
+    #9e4ce3 0%,
+    rgba(196, 196, 196, 0) 103.05%
+  );
+}
+.rectangle1 {
+  position: absolute;
+  left: 9.09%;
+  right: 30%;
+  top: 66.91%;
+  bottom: 24.91%;
+
+  background: linear-gradient(
+    90deg,
+    #9e4ce3 0%,
+    rgba(196, 196, 196, 0) 103.05%
+  );
+}
+.spanEth {
+  position: absolute;
+  left: 9.64%;
+  right: 60.36%;
+  top: 83.16%;
+  bottom: 7.51%;
+  font-family: "SF Compact Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23.7534px;
+  line-height: 140%;
+  color: #9988ff;
+  font-size: 20px;
+}
+.spandolar {
+  position: absolute;
+  left: 57.73%;
+  right: 9.36%;
+  top: 83.64%;
+  bottom: 7.91%;
+
+  font-family: "SF Compact Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.815px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+
+  text-align: center;
+
+  /* black/black-40 */
+
+  color: #525d79;
 }
 .bear1Mint {
   position: absolute;
-  width: 72%;
-  height: 50%;
-  left: 15%;
-  top: -12.5%;
+  width: 290.2px;
+  height: 333.86px;
+  left: 0px;
+  top: -170.83px;
+  
 }
 .linearback {
   max-width: 200%;
- width: 200%;
+  width: 200%;
   transform: rotate(20deg);
   position: relative;
   left: -50%;
@@ -85,7 +158,7 @@
     top: -26px;
     left: 64px;
   }
-  .linearback{
+  .linearback {
     /* width: -2px; */
     left: 0%;
     top: -110%;

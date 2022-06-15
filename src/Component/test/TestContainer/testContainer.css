@@ -19,10 +19,18 @@
 .bbText {
   max-width: 100%;
   position: absolute;
-  top: 80px;
-  left: 8%;
+  /* top: 50px; */
+  left: 12%;
 }
-@media (max-width: 1024px) {
+@media (max-width:1024px){
+  .bbText {
+left: 0;
+
+top:0
+  }
+   
+}
+@media (max-width: 664px) {
   .bbText {
     /* position: absolute; */
     /* top: 10px; */
@@ -39,5 +47,10 @@
     position: relative;
     height: 40%;
     background: linear-gradient(90deg, #111111 0%, #16122e 100%);
+  }
+}
+@media (min-width:1600px){
+  .bbText{
+    top:80px;
   }
 }

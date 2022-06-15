@@ -85,7 +85,7 @@
 }
 @media (max-width:1024){
   .imagesWrapper1{
-    margin-top: 20%;
+    /* margin-top: 20%; */
   }
   .show{
     display: none !important;

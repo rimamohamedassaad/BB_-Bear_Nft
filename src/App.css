@@ -1,29 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');* {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   /* overflow: hidden; */
-  font-family: 'Poppins';
-font-weight: 400px;}
+  font-family: "Poppins";
+  font-weight: 400px;
+}
 .body {
   position: relative;
-  /* text-rendering: optimizeLegibility;
-  text-rendering: geometricPrecision;
-  font-smooth: always;
-
-  font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  -webkit-font-smoothing: antialiased;
-  -webkit-font-smoothing: subpixel-antialiased; */
 }
 .section1 {
-  /* padding-top: 50px; */
   position: relative;
-  /* height: 780px; */
   top: 93px;
- max-width:  100%;
-  /* background: linear-gradient(90deg, #111111 0%, #16122e 100%); */
-  /* display: flex; */
+  max-width: 100%;
 }
 .ImgContainer {
   width: 65%;
@@ -31,46 +21,6 @@ font-weight: 400px;}
   right: 0;
   top: -80px;
   /* margin-right: 20px; */
-}
-.brandIcon {
-  font-family: "Poppins";
-  font-style: normal;
-  /* font-weight: 600; */
-  line-height: 100px;
-  background: linear-gradient(89.74deg, #fa00ff 14.4%, #6d8fee 40.36%), #ffffff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-.brandIcon,
-.brandIconP {
-  font-size: 280%;
-}
-.brandIconP {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  line-height: 100px;
-  background: linear-gradient(89.74deg, #fff 0.4%, #fff 17.36%), #ffffff;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-.section1Container {
-  width: 80%;
-}
-.textBrand {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 300;
-    font-size: 30px;
-  /* color: #fff; */
-  line-height: 45px;
-  /* margin-left: 50px; */
-  max-width: 45%;
-  margin-top: 50px;
-  color: #CFCFCF;
-  line-height: 45px;
 }
 
 /* .textBrand p{
@@ -86,7 +36,6 @@ font-weight: 400px;}
 .MintBtnSection {
   text-align: center;
   margin-top: -10%;
- 
 }
 .section2 {
   position: relative;
@@ -106,6 +55,11 @@ font-weight: 400px;}
 .section22 h1 {
   text-align: center;
   margin-top: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 67px;
+  line-height: 100px;
 }
 @media (max-width: 1024px) {
   .section1Container {
@@ -139,17 +93,18 @@ font-weight: 400px;}
     font-size: 100%;
   }
 }
-@media (max-width:1250px){
-  .textBrand{
+@media (max-width: 1250px) {
+  .textBrand {
     font-size: 140%;
     color: #fff;
     line-height: 33px;
     margin-top: 20px;
   }
 }
-@media (max-width:700px){
- .section22 h1{
-  margin-bottom: -60px}
+@media (max-width: 700px) {
+  .section22 h1 {
+    margin-bottom: -60px;
+  }
   .MintBtnSection {
     margin-top: -50px;
   }

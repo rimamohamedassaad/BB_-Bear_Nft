@@ -15,8 +15,44 @@
   margin-bottom: 0;
   margin-left: 30px;
 }
+.brandIcon,
+.brandIconP {
+  margin-top: 100px;
+  font-weight: 700;
+  font-size: 280%;
+  line-height: 100px;
+  background: linear-gradient(89.74deg, #fa00ff 14.4%, #6d8fee 40.36%), #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.brandIconP {
+  background: linear-gradient(89.74deg, #fff 0.4%, #fff 17.36%), #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.section1Container {
+  width: 80%;
+}
+.textBrand {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  /* color: #fff; */
+  line-height: 45px;
+  /* margin-left: 50px; */
+  max-width: 43%;
+  /* margin-top: 50px; */
+  color: #cfcfcf;
+  line-height: 45px;
+}
+
 .titleContainer {
-margin-top: 20px;
+  margin-top: 100px;
 }
 .exploreBtn {
   color: #fff;
@@ -36,25 +72,61 @@ margin-top: 20px;
   margin-bottom: 20px;
 }
 @media (max-width: 1024px) {
+  .titleContainer {
+    margin-top: 20px;
+  }
+  .textBrand{
+    font-size:20px;
+    margin-left: 10px;
+  }
+  .textBrand p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #cfcfcf;
+  }
+}
+@media (max-width: 664px) {
   .BBtextContainer {
     max-width: 100%;
     width: 100%;
     margin-left: 0;
-
   }
   .titleContainer {
-    width: 90%;
+    width: 85%;
     margin: auto;
-    font-size: 150%;
+    /* font-size: 150%; */
   }
-  .exploreBtnDiv{
+  .textBrand {
+    width: 85%;
+    max-width: 85%;
+    margin: auto;
+  }
+  .textBrand p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #cfcfcf;
+  }
+  .exploreBtnDiv {
     width: 90%;
     margin: auto;
     /* width:180px; */
     text-align: left;
   }
-  .exploreBtn{
-        width:130px;
-        font-size: 18px;
+  .exploreBtn {
+    width: 130px;
+    font-size: 18px;
+  }
+  .brandIcon,
+  .brandIconP {
+    font-size: 28px;
+  }
+}
+@media (min-width: 1600px) {
+  .brandIcon,
+  .brandIconP {
+    font-size: 450%;
+    margin-top: 200px;
   }
 }

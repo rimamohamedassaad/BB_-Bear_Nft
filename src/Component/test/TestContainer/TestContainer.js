@@ -4,9 +4,11 @@ import { Test } from '../Test'
 import './testContainer.css'
 export const TestContainer = () => {
   return (
-    <div className='testContainer'>
-      <div className='bbText'><BBtext /></div>
-      <div className='testWrapper'><Test /></div>
+    <div className='toTest' > 
+      <div className='testContainer'>
+        <div className='bbText'><BBtext /></div>
+        <div className='testWrapper'><Test /></div>
+      </div>
     </div>
   )
 }
