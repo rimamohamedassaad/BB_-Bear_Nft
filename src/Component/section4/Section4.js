@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../images/bibfy logo 1.png'
+import logo1 from '../../images/bb bear logo 1.png'
 import './Section4.css'
 export const Section4 = () => {
     return (
@@ -11,7 +12,7 @@ export const Section4 = () => {
             </div>
             <div className='section4Text'>
                 <div className='section4TextImg'>
-                    <img src={logo} alt='logo' className='logoImg' />
+                    <img src={logo1} alt='logo' className='logoImg' />
                 </div>
                 <div className='section4TextP'>
                     <p>

@@ -17,21 +17,21 @@
   position: relative;
   width: 100%;
   max-width: 100%;
-  height: 800px;
+  height: 60%;
 }
 .image1 {
   position: absolute;
-  right: 20%;
+  right: 18%;
   top: 47%;
 }
 .image2 {
   position: absolute;
   top: 12%;
-  right: 33%;
+  right: 29%;
 }
 .image3 {
   position: absolute;
-  right: 46%;
+  right: 36%;
   top: 60%;
 }
 .rectangle {
@@ -76,6 +76,8 @@
 .smallrock {
   position: absolute;
   top: 120px;
+  width: 196px;
+  height: 181px;
 }
 .shadow {
   position: absolute;
@@ -84,11 +86,18 @@
   height: 245px;
   left: 26px;
 }
-@media (max-width:1024px){
-  .image1 , .image2 , .image3{
+.animationContainer {
+  /* position: relative; */
+  /* bottom: 10%;  */
+  /* right:18%; */
+}
+@media (max-width: 1201px) {
+  .image1,
+  .image2,
+  .image3 {
     display: none;
   }
-  .imageRock{
-    height: 650px;
+  .imageRock {
+    /* height: 650px; */
   }
 }

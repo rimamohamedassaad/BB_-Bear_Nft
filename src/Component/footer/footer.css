@@ -21,8 +21,29 @@
   text-decoration: none;
   color: #000000;
 }
+.p1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #a3a3a3;
+}
+.p2{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height */
+color: #FFFFFF;
+
+}
 .footerText {
   padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
+  padding-right: 10px;
 }

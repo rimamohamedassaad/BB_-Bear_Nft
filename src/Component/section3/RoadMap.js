@@ -1,10 +1,11 @@
 import React from 'react'
 import './roadmap.css'
+
 export const RoadMap = () => {
     return (
         <div className='RoadmapContainer'>
-            <div className='RoadMapHeader'>
-                <h1>Roadmap</h1>
+            <div className=''>
+                <p className='roadmapH1'>Roadmap</p>
             </div>
             <div className='roadmap_items'>
                 <div className='icon_div'>
@@ -13,22 +14,9 @@ export const RoadMap = () => {
                 </div>
                 <div className='roadmap_item'>
 
-                    <h1> Marketing . Marketing . Marketing</h1>
+                    <p className='marketing'> Marketing . Marketing . Marketing</p>
 
-                    <p> Run intensive Ads to get the word out about the BiBiFy brand. </p>
-
-                </div>
-            </div>
-            <div className='roadmap_items'>
-                <div className='icon_div'>
-                    <div className='icon_div_div'>
-                    </div>
-                </div>
-                <div className='roadmap_item'>
-
-                    <h1> Collaboration</h1>
-
-                    <p> Collaborate with famous artists to utilize our platform to launch their collections.</p>
+                    <p className='marketingDesc'> Run intensive Ads to get the word out about the BiBiFy brand. </p>
 
                 </div>
             </div>
@@ -39,9 +27,22 @@ export const RoadMap = () => {
                 </div>
                 <div className='roadmap_item'>
 
-                    <h1> Metaverse Stores</h1>
+                    <p className='marketing'>  Collaboration</p>
 
-                    <p> Build our stores in the metaverse. <br />
+                    <p className='marketingDesc'> Collaborate with famous artists to utilize our platform to launch their collections.</p>
+
+                </div>
+            </div>
+            <div className='roadmap_items'>
+                <div className='icon_div'>
+                    <div className='icon_div_div'>
+                    </div>
+                </div>
+                <div className='roadmap_item'>
+
+                    <p className='marketing'> Metaverse Stores</p>
+
+                    <p className='marketingDesc'> Build our stores in the metaverse. <br />
                         Decentraland and SandBox.</p>
 
                 </div>

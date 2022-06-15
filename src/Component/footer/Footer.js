@@ -13,10 +13,10 @@ export const Footer = () => {
                     <a href='#discord' className='socialMediaF'><img src={discord} alt='discord' /> </a>
                 </div>
                 <div className='footerText'>
-                    <p>
+                    <p className='p1'>
                     Copyright BB BEAR, Inc. 2022. All Rights Reserved.
                     </p>
-                    <p>
+                    <p className='p2'>
                     Terms and condition
                     </p>
                 </div>

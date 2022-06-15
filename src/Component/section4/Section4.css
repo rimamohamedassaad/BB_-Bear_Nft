@@ -2,7 +2,7 @@
   background-color: #000000;
   width: 100%;
   max-width: 100%;
-  color: #fff;
+  height: 577px;
 }
 .section4Header {
   text-align: center;
@@ -10,16 +10,19 @@
   padding-bottom: 50px;
 }
 .section4Header h1 {
-  font-size: 350%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 67px;
+  line-height: 100px;
+  color: #fff;
 }
 
 .logoImg {
-  width: 225px;
-  height: 190px;
-}
-.logoImg:hover {
-  width: 250px;
-  height: 190px;
+  width: 175px;
+  height: 106px;
+  margin-top: 70px;
+  /* background: #b8b8b8; */
 }
 .section4Text {
   display: flex;
@@ -31,14 +34,21 @@
   display: flex;
   justify-content: flex-end;
   margin-right: 130px;
-  width: 35%;
+  width: 27%;
   margin-bottom: 100px;
 }
 .section4TextP {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
   width: 40%;
-  margin-top: 30px;
-  margin-bottom: 100px;
-  font-size: 160%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  margin-top: 75px;
+  color: #b8b8b8;
 }
 @media (max-width: 764px) {
   .section4Text {
@@ -50,15 +60,15 @@
     margin: auto;
     padding-bottom: 50px;
   }
-  .section4TextImg img{
+  .section4TextImg img {
     width: 142px;
-    height: 126px
+    height: 126px;
   }
-  .section4TextImg img:hover{
+  .section4TextImg img:hover {
     width: 150px;
-    height: 126px
+    height: 126px;
   }
-  .section4TextImg  {
+  .section4TextImg {
     width: 100%;
     margin-right: 0;
     display: block;
@@ -71,7 +81,7 @@
     padding-bottom: 10px;
     padding-top: 40px;
   }
-  .section4Header h1{
+  .section4Header h1 {
     font-size: 300%;
   }
 }
