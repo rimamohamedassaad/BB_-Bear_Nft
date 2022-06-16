@@ -18,9 +18,9 @@ export const Mint = () => {
     useEffect(() => {
         Aos.init({
             duration: 2000,
-            offset: 300,
+            offset: 300,  
         });
-        Aos.refresh();
+      Aos.refresh();
     }, []);
 
 
@@ -112,7 +112,7 @@ export const Mint = () => {
                     </div>
                     {/* <img src={backbear} className='backbear' alt='backbear' />> */}
                 </div>
-                <div className='mint1'>
+                <div className='mint1' data-aos="fade-up" data-aos-once='true'  data-aos-offset='500'>
                     <img src={lineareback} className='linearback' alt='linearback' />
                     <div className='backbear'>
                         <div className='backbear1'></div>
@@ -124,7 +124,7 @@ export const Mint = () => {
                     </div>
                     {/* <img src={backbear} className='backbear' alt='backbear' />> */}
                 </div>
-                <div className='mint1' >
+                <div className='mint1' data-aos="fade-up" data-aos-once='true' data-aos-offset='1000'>
                     <img src={lineareback} className='linearback' alt='linearback' />
                     <div className='backbear'>
                         <div className='backbear1'></div>
