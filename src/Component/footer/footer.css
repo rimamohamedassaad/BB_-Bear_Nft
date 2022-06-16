@@ -47,3 +47,9 @@ color: #FFFFFF;
   color: #fff;
   padding-right: 10px;
 }
+@media (max-width:664px){
+  .footerContainer {
+  padding-left: 10px;
+  gap:10px;
+}
+}

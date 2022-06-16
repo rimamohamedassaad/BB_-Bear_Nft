@@ -18,7 +18,7 @@ export const Test = () => {
     });
     return (
         <div className='section'>
-            <div className='imagesWrapper1'>
+            <div className='imagesWrapper1' data-aos="fade-right" data-aos-once='true'>
                 <div className='ejbari'>
                     <img src={backlinear1} alt='background' className='backlinear1' />
                     <img src={backgroudImg} alt='background' className='backgroudImg1' />

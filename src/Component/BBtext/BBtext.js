@@ -6,6 +6,8 @@ export const BBtext = () => {
   Aos.init({
     duration: 3000,
     offset: 300,
+    disable: 'mobile'
+
 });
   return (
     <div className='BBtextContainer' data-aos="fade-up" >

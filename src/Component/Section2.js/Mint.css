@@ -40,7 +40,7 @@
   width: 261.29px;
   position: absolute;
   top: 14%;
-  left: 15%;
+  /* left: 20%; */
   height: 319.48px;
   background-color: #000000;
 }
@@ -82,17 +82,17 @@
 }
 .spanEth {
   position: absolute;
-  left: 9.64%;
-  right: 60.36%;
-  top: 83.16%;
-  bottom: 7.51%;
-  font-family: "SF Compact Text";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 23.7534px;
-  line-height: 140%;
-  color: #9988ff;
-  font-size: 20px;
+    left: 8.64%;
+    /* right: 60.36%; */
+    top: 83.16%;
+    bottom: 7.51%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23.7534px;
+    line-height: 140%;
+    color: #9988ff;
+    font-size: 20px;
 }
 .spandolar {
   position: absolute;
@@ -117,9 +117,9 @@
 .bear1Mint {
   position: absolute;
   width: 290.2px;
-  height: 333.86px;
+  height: 298.86px;
   left: 0px;
-  top: -170.83px;
+  top: -138.83px;
 }
 .linearback {
   transform: rotate(20deg);

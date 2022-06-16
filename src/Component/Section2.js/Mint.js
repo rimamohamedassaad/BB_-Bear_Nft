@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Mint.css'
 import backbear from '../../images/backbear.png'
 import bear1 from '../../images/60.png'
@@ -15,17 +15,21 @@ import "slick-carousel/slick/slick.css";
 
 import "slick-carousel/slick/slick-theme.css";
 export const Mint = () => {
-    Aos.init({
-        duration: 2000,
-        offset: 300,
-    });
-    Aos.refresh();
+    useEffect(() => {
+        Aos.init({
+            duration: 2000,
+            offset: 300,
+        });
+        Aos.refresh();
+    }, []);
+
+
     const settings = {
         dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 3,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         responsive: [
             {
                 breakpoint: 1024,
@@ -96,42 +100,42 @@ export const Mint = () => {
                 </Slider>
             </div>
             <div className='MintContainer'>
-            <div className='mint1'>
-                        <img src={lineareback} className='linearback' alt='linearback' />
-                        <div className='backbear'>
-                            <div className='backbear1'></div>
-                            <img src={rectangle2} className='rectangle2' alt='backbear' />
-                            <img src={recttangle1} className='rectangle1' alt='backbear' />
-                            <span className='spanEth'>0.1 ETH</span>
-                            <span className='spandolar'>= $251.59</span>
-                            <img src={bear1} className='bear1Mint' alt='bear1' />
-                        </div>
-                        {/* <img src={backbear} className='backbear' alt='backbear' />> */}
+                <div className='mint1'>
+                    <img src={lineareback} className='linearback' alt='linearback' />
+                    <div className='backbear'>
+                        <div className='backbear1'></div>
+                        <img src={rectangle2} className='rectangle2' alt='backbear' />
+                        <img src={recttangle1} className='rectangle1' alt='backbear' />
+                        <span className='spanEth'>0.1 ETH</span>
+                        <span className='spandolar'>= $251.59</span>
+                        <img src={bear1} className='bear1Mint' alt='bear1' />
                     </div>
-                    <div className='mint1' >
-                        <img src={lineareback} className='linearback' alt='linearback' />
-                        <div className='backbear'>
-                            <div className='backbear1'></div>
-                            <img src={rectangle2} className='rectangle2' alt='backbear' />
-                            <img src={recttangle1} className='rectangle1' alt='backbear' />
-                            <span className='spanEth'>0.1 ETH</span>
-                            <span className='spandolar'>= $251.59</span>
-                            <img src={orange} className='bear1Mint' alt='bear1' />
-                        </div>
-                        {/* <img src={backbear} className='backbear' alt='backbear' />> */}
+                    {/* <img src={backbear} className='backbear' alt='backbear' />> */}
+                </div>
+                <div className='mint1'>
+                    <img src={lineareback} className='linearback' alt='linearback' />
+                    <div className='backbear'>
+                        <div className='backbear1'></div>
+                        <img src={rectangle2} className='rectangle2' alt='backbear' />
+                        <img src={recttangle1} className='rectangle1' alt='backbear' />
+                        <span className='spanEth'>0.1 ETH</span>
+                        <span className='spandolar'>= $251.59</span>
+                        <img src={orange} className='bear1Mint' alt='bear1' />
                     </div>
-                    <div className='mint1' data-aos="fade-up" >
-                        <img src={lineareback} className='linearback' alt='linearback' />
-                        <div className='backbear'>
-                            <div className='backbear1'></div>
-                            <img src={rectangle2} className='rectangle2' alt='backbear' />
-                            <img src={recttangle1} className='rectangle1' alt='backbear' />
-                            <span className='spanEth'>0.1 ETH</span>
-                            <span className='spandolar'>= $251.59</span>
-                            <img src={bear2} className='bear1Mint' alt='bear1' />
-                        </div>
-                        {/* <img src={backbear} className='backbear' alt='backbear' />> */}
+                    {/* <img src={backbear} className='backbear' alt='backbear' />> */}
+                </div>
+                <div className='mint1' >
+                    <img src={lineareback} className='linearback' alt='linearback' />
+                    <div className='backbear'>
+                        <div className='backbear1'></div>
+                        <img src={rectangle2} className='rectangle2' alt='backbear' />
+                        <img src={recttangle1} className='rectangle1' alt='backbear' />
+                        <span className='spanEth'>0.1 ETH</span>
+                        <span className='spandolar'>= $251.59</span>
+                        <img src={bear2} className='bear1Mint' alt='bear1' />
                     </div>
+                    {/* <img src={backbear} className='backbear' alt='backbear' />> */}
+                </div>
             </div>
         </div>
     )
