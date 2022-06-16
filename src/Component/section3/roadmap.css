@@ -124,6 +124,17 @@
     margin-left: 10%;
   }
 }
+@media (max-width: 782px) {
+  .marketing{
+    font-size: 28px;
+  }
+  .marketingDesc{
+    font-size: 20px;
+  }
+  .roadmap_items{
+    margin-left: 5%;
+  }
+}
 @media (max-width: 664px) {
   .roadmapH1 {
     font-size: 45px;

@@ -90,7 +90,11 @@
     margin: auto;
     /* margin-left: 0;
     margin-right: 0; */
-    font-size: 130%;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 30px; */
+    line-height: 45px;
     line-height: 32px;
   }
   .brandIcon,
@@ -99,6 +103,12 @@
   }
   .section22 {
     font-size: 100%;
+  }
+}
+@media (max-width:1600px){
+  .textBrand p{
+    font-size: 18px;
+    margin-top: -10px;
   }
 }
 @media (max-width: 1250px) {
@@ -116,7 +126,7 @@
   .MintBtnSection {
     margin-top: -50px;
   }
-  .MintBtnSection p{
+  .MintBtnSection p {
     font-size: 16px;
     padding: 10px;
   }

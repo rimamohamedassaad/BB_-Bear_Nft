@@ -21,11 +21,17 @@
   /* top: 50px; */
   left: 12%;
 }
+@media (max-width:1600px){
+  .bbText{
+   left:5%;
+   top:5%;
+  }
+}
 @media (max-width: 1024px) {
   .bbText {
-    left: 0;
+    left: 5%;
 
-    top: 0;
+    top: 20%;
   }
 }
 @media (max-width: 664px) {

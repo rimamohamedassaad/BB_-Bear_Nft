@@ -1,11 +1,41 @@
 .section {
   /* background-color: black; */
   width: 100%;
-  /* height: 500px; */
+  height: 40%;
   padding: 0;
   margin: auto;
   margin-top: -30px;
 }
+@keyframes glidphone {
+  0% {
+    top: 40%;
+    left: 13%;
+  }
+  100% {
+    top: 42%;
+    left: 15%;
+  }
+}
+@keyframes glidphone1 {
+  0% {
+    top: 64%;
+    left: 13%;
+  }
+  100% {
+    top: 66%;
+    left: 15%;
+  }
+}
+@keyframes glidphone2 {
+  0% {
+    top: 53%;
+    right: 5%;
+}
+100% {
+    top: 51%;
+    right: 3%;
+}}
+
 @keyframes glide {
   from {
     top: 75%;
@@ -117,10 +147,19 @@
     top: 14%;
     left: 27%;
   }
-  .earth1{
+  .earth1 {
     position: absolute;
     width: 43%;
     top: 65%;
     left: 32%;
+  }
+  .rock11 {
+    animation: glidphone 2s ease-in-out alternate infinite;
+  }
+  .rock21{
+    animation: glidphone1 2s ease-in-out alternate infinite;
+  }
+  .rock31{
+    animation: glidphone2 2s ease-in-out alternate infinite;
   }
 }

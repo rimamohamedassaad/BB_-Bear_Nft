@@ -8,8 +8,14 @@ import earth from '../../images/flying earth 1.png'
 import rock1 from '../../images/rock2 1.png'
 import rock2 from '../../images/rock 3.png'
 import backlinear1 from '../../images/Property 1=1.png'
+import Aos from "aos";
+import 'aos/dist/aos.css';
 import './test.css'
 export const Test = () => {
+    Aos.init({
+        duration: 2000,
+        offset: 300,
+    });
     return (
         <div className='section'>
             <div className='imagesWrapper1'>
@@ -19,8 +25,8 @@ export const Test = () => {
                 </div>
                 {/* <img src={backlinear1} alt='background' className='backlinear11' /> */}
 
-                <img src={bear} alt='bear' className='bear1' />
-                <img src={earth} alt='bear' className='earth1' />
+                <img src={bear} alt='bear' className='bear1'  />
+                <img src={earth} alt='bear' className='earth1' data-aos="fade-up" />
                 <img src={rock1} alt='rock1' className='rock11' />
                 <img src={rock1} alt='rock2' className='rock21' />
                 <img src={rock2} alt='rock3' className='rock31' />

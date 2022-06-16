@@ -10,7 +10,7 @@ export const Section4 = () => {
             </div>
             <div className='section4Text'>
                 <div className='section4TextImg'>
-                    <img src={logo1} alt='logo' className='logoImg' />
+                    {/* <img src={logo} alt='logo' className='logoImg' /> */}
                 </div>
                 <div className='section4TextP'>
                     <p>

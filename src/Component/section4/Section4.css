@@ -34,8 +34,19 @@
   display: flex;
   justify-content: flex-end;
   margin-right: 130px;
-  width: 27%;
-  margin-bottom: 100px;
+  width: 281.64px;
+  height: 171.58px;
+  background: url(../../images//bibfy\ logo\ 1.png);
+  background-repeat: no-repeat;
+  opacity: 0.64;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all .2s ease-in-out;
+}
+.section4TextImg:hover{
+  opacity: 1;
+transform: scale(1.1);
 }
 .section4TextP {
   /* display: flex;
@@ -47,10 +58,14 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 33px;
-  margin-top: 75px;
+  /* margin-top: 75px; */
   color: #b8b8b8;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 @media (max-width: 764px) {
+  .divSe
   .section4Text {
     display: block;
   }
@@ -65,14 +80,18 @@
     height: 126px;
     height: 126px;
     margin-top: 0;
-    margin-bottom: 10px
+    margin-bottom: 10px;
   }
   .section4TextImg img:hover {
     width: 150px;
     height: 126px;
   }
   .section4TextImg {
-    width: 100%;
+    /* width: 100%; */
+    background-position: center;
+    display: flex;
+
+    justify-content: center;
     margin-right: 0;
     display: block;
     margin-right: 0;
@@ -88,3 +107,4 @@
     font-size: 300%;
   }
 }
+  
