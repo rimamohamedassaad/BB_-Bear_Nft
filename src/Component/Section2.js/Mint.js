@@ -18,18 +18,20 @@ export const Mint = () => {
     useEffect(() => {
         Aos.init({
             duration: 2000,
-            offset: 300,  
+            offset: 300,
         });
-      Aos.refresh();
+        Aos.refresh();
     }, []);
 
 
     const settings = {
         dots: true,
         infinite: true,
+        className:'center',
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 3,
+        centerPadding: "60px",
         responsive: [
             {
                 breakpoint: 1024,
@@ -45,14 +47,18 @@ export const Mint = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    initialSlide: 1
+                    initialSlide: 1,
+                    infinite: true,
+                    dots: true
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
                 }
             }
         ]
@@ -112,7 +118,7 @@ export const Mint = () => {
                     </div>
                     {/* <img src={backbear} className='backbear' alt='backbear' />> */}
                 </div>
-                <div className='mint1' data-aos="fade-up" data-aos-once='true'  data-aos-offset='500'>
+                <div className='mint1' data-aos="fade-up" data-aos-once='true' data-aos-offset='500'>
                     <img src={lineareback} className='linearback' alt='linearback' />
                     <div className='backbear'>
                         <div className='backbear1'></div>

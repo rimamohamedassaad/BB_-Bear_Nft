@@ -94,6 +94,7 @@
     color: #9988ff;
     font-size: 20px;
 }
+
 .spandolar {
   position: absolute;
   left: 57.73%;
@@ -147,5 +148,8 @@
 @media (max-width: 1024px) {
   .MintContainer {
     display: none;
+  }
+  .backbear{
+    left:20%;
   }
 }
