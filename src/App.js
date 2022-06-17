@@ -16,7 +16,7 @@ function App() {
       <div className='section1'>
         <TestContainer />
       </div>
-      <div className='section22'>
+      <div className='section22' id="Mint">
         {/* <div style={{ textAlign: 'center' }}> <img src={arrow} alt='arrow' /></div> */}
         <Mint />
         <div className='MintBtnSection'>

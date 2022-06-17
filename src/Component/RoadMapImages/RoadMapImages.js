@@ -15,7 +15,7 @@ export const RoadMapImages = () => {
         offset: 300,});
     Aos.refresh();
     return (
-        <div className='imageRock' >
+        <div className='imageRock' id="roadmap"> 
             <RoadMap/>
             <div className='image1' data-aos="fade-up" > 
              <div className='imageRockContainer1'>

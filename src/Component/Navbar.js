@@ -15,8 +15,8 @@ export const Navbar = () => {
                     <img src={logo1} alt='logo' className='logo' />
                 </div>
                 <div className='linkContent'>
-                    <a href="mint" >Mint</a>
-                    <a href="mint" >Roadmap</a>
+                    <a href="#Mint" name="timeline"  >Mint</a>
+                    <a href="#roadmap" >Roadmap</a>
                     <a href="mint" >Contact us</a>
                 </div>
                 </div>
