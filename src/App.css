@@ -6,9 +6,11 @@
   /* overflow: hidden; */
   font-family: "Poppins";
   font-weight: 400px;
+  scroll-behavior: smooth;
 }
 .body {
   position: relative;
+  
 }
 .section1 {
   position: relative;
