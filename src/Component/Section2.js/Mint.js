@@ -64,7 +64,7 @@ export const Mint = () => {
         ]
     };
     return (
-        <div className='container'>  <p className='roadmapH1'>mint your Bear</p>
+        <div className='container'>  <p className='roadmapH1'>find your bb bear</p>
             <div className='sliderContainer'>
                 <Slider {...settings}>
                     <div className='mint1'>
@@ -74,7 +74,7 @@ export const Mint = () => {
                             <img src={rectangle2} className='rectangle2' alt='backbear' />
                             <img src={recttangle1} className='rectangle1' alt='backbear' />
                             <span className='spanEth'>0.1 ETH</span>
-                            <span className='spandolar'>= $251.59</span>
+    
                             <img src={bear1} className='bear1Mint' alt='bear1' />
                         </div>
                     </div>
@@ -85,7 +85,7 @@ export const Mint = () => {
                             <img src={rectangle2} className='rectangle2' alt='backbear' />
                             <img src={recttangle1} className='rectangle1' alt='backbear' />
                             <span className='spanEth'>0.1 ETH</span>
-                            <span className='spandolar'>= $251.59</span>
+    
                             <img src={orange} className='bear1Mint' alt='bear1' />
                         </div>
                         {/* <img src={backbear} className='backbear' alt='backbear' /> */}
@@ -97,7 +97,7 @@ export const Mint = () => {
                             <img src={rectangle2} className='rectangle2' alt='backbear' />
                             <img src={recttangle1} className='rectangle1' alt='backbear' />
                             <span className='spanEth'>0.1 ETH</span>
-                            <span className='spandolar'>= $251.59</span>
+    
                             <img src={bear2} className='bear1Mint' alt='bear1' />
                         </div>
                         {/* <img src={backbear} className='backbear' alt='backbear' />> */}
@@ -113,7 +113,7 @@ export const Mint = () => {
                         <img src={rectangle2} className='rectangle2' alt='backbear' />
                         <img src={recttangle1} className='rectangle1' alt='backbear' />
                         <span className='spanEth'>0.1 ETH</span>
-                        <span className='spandolar'>= $251.59</span>
+
                         <img src={bear1} className='bear1Mint' alt='bear1' />
                     </div>
                     {/* <img src={backbear} className='backbear' alt='backbear' />> */}
@@ -125,7 +125,7 @@ export const Mint = () => {
                         <img src={rectangle2} className='rectangle2' alt='backbear' />
                         <img src={recttangle1} className='rectangle1' alt='backbear' />
                         <span className='spanEth'>0.1 ETH</span>
-                        <span className='spandolar'>= $251.59</span>
+
                         <img src={orange} className='bear1Mint' alt='bear1' />
                     </div>
                     {/* <img src={backbear} className='backbear' alt='backbear' />> */}
@@ -137,7 +137,7 @@ export const Mint = () => {
                         <img src={rectangle2} className='rectangle2' alt='backbear' />
                         <img src={recttangle1} className='rectangle1' alt='backbear' />
                         <span className='spanEth'>0.1 ETH</span>
-                        <span className='spandolar'>= $251.59</span>
+
                         <img src={bear2} className='bear1Mint' alt='bear1' />
                     </div>
                     {/* <img src={backbear} className='backbear' alt='backbear' />> */}

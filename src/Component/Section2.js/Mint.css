@@ -14,8 +14,7 @@
     transform: translateX(-200%);
   }
 }
-.container h1{
-  
+.container h1 {
 }
 .MintContainer {
   position: relative;
@@ -82,17 +81,17 @@
 }
 .spanEth {
   position: absolute;
-    left: 8.64%;
-    /* right: 60.36%; */
-    top: 83.16%;
-    bottom: 7.51%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 23.7534px;
-    line-height: 140%;
-    color: #9988ff;
-    font-size: 20px;
+  left: 8.64%;
+  right: 8.36%;
+  top: 83.16%;
+  bottom: 7.51%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23.7534px;
+  line-height: 140%;
+  color: #9988ff;
+  font-size: 26px;
 }
 
 .spandolar {
@@ -149,7 +148,7 @@
   .MintContainer {
     display: none;
   }
-  .backbear{
-    left:20%;
+  .backbear {
+    left: 20%;
   }
 }

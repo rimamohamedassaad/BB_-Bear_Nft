@@ -12,7 +12,7 @@ export const Footer = () => {
              <div className='linkContentFotter'>
                     <a href='#twiter' className='socialMediaF'><img src={twiter} alt='twiter' /> </a>
                     <a href='#facebook' className='socialMediaF'><img src={insta} alt='insta' /> </a>
-                    <a href='#discord' className='socialMediaF'><img src={discord} alt='discord' /> </a>
+                    {/* <a href='#discord' className='socialMediaF'><img src={discord} alt='discord' /> </a> */}
                 </div>
                 <div className='footerText'>
                     <p className='p1'>

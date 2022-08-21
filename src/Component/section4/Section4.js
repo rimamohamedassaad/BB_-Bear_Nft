@@ -6,7 +6,7 @@ export const Section4 = () => {
     return (
         <div className='Section4Container'>
             <div className='section4Header'>
-            <p className='roadmapH1'>Partnership</p>
+                <p className='roadmapH1' id="Partnership">Partnership</p>
             </div>
             <div className='section4Text'>
                 <div className='section4TextImg'>
@@ -14,8 +14,7 @@ export const Section4 = () => {
                 </div>
                 <div className='section4TextP'>
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi arcu eget odio elit aliquam proin duis convallis consectetur. Nisl laoreet nunc vel a.
-                    </p>
+                        BiBify is creating a platform to bridg the NFT world with the fashion world                    </p>
                 </div>
             </div>
         </div>

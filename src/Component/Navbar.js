@@ -15,19 +15,19 @@ export const Navbar = () => {
                     <img src={logo1} alt='logo' className='logo' />
                 </div>
                 <div className='linkContent'>
-                    <a href="#Mint" name="timeline"  >Mint</a>
+                    <a href="#Opensea" name="timeline"  >Opensea</a>
                     <a href="#roadmap" >Roadmap</a>
-                    <a href="mint" >Contact us</a>
+                    <a href="#Partnership" >Partnership</a>
                 </div>
                 </div>
                 <div  className='navbarContent'>
                 <div className='socialMediaContent'>
                     <a href='#twiter' className='socialMedia'><img src={twiter} alt='twiter' /> </a>
                     <a href='#insta' className='socialMedia'><img src={insta} alt='insta' /> </a>
-                    <a href='#discord' className='socialMedia'><img src={discord} alt='discord' /> </a>
+                    {/* <a href='#discord' className='socialMedia'><img src={discord} alt='discord' /> </a> */}
                 </div>
                 <div>
-                    <button className='connect'>connect</button>
+                    {/* <button className='connect'>connect</button> */}
                 </div>
                 </div>
             </div>
